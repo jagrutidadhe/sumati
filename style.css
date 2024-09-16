@@ -1,0 +1,135 @@
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.height-logo{
+    height: 25px;
+}
+.first-main{
+    text-align: center;
+    border-bottom: 1px solid #3C3A95;
+}
+.para-main{
+    font-size: 17px;
+    line-height: 25px;
+    color: #3C3A95;
+}
+.heading{
+    color: #3C3A95;
+    font-size: 32px;
+    margin-bottom: -20px;
+    padding-top: 5px;
+}
+.second-main{
+    text-align: center;
+}
+.heading-second{
+    color: #3C3A95;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.backgroun-white{
+    background-color: white;
+    margin-top: -30px;
+}
+.container{
+    display: flex;
+    
+}
+.logo-new{
+    width: 45%;
+}
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.nav-link{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+.navbar{
+    margin-top: -10px;
+}
+.nav-item{
+    
+    list-style-type:none;
+}
+.main-logo{
+    height: 50px;
+    border-radius: 50px;
+    padding: 2px;
+}
+.container{
+    background-color: rgb(195, 255, 155);
+    
+}
+
+
+
+/*section  2 parts of school amd hostel*/
+
+.main-blog{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.sumati-main-blog{
+    
+    width: 600px;
+    height: 370px;
+    border: 2px solid black;
+}
+.scroll-images{
+    position: relative
+    ;
+    width: 100%;
+    max-width: 600px;
+}
+.btn-sb{
+    color: black;
+    background-color: rgb(107, 255, 8);
+    border: none;
+    padding: 10px 20px;
+}
+.btn-sb:hover{
+    color:WHITE;
+    background-color: rgb(88, 124, 241);
+    border: none;
+    padding: 10px 20px;
+}
+.scroll-images .btn-sb{
+    position: absolute;
+    top:85%;
+    left: 75%;
+}
+.pakharmaya-main-blog{
+
+    width: 600px;
+    height: 370px;
+    border: 2px solid black;
+}
+.scroll-images img {
+    width: 600px;
+    height: 300px;
+}
+.marquee{
+    background-color: rgb(195, 255, 155);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+    font-size: 20px;
+}
